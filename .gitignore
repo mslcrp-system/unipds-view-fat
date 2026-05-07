@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# env — nunca commitar credenciais
+.env
+.env.local
+.env*.local
+
+# build
+tsconfig.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
