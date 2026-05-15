@@ -95,7 +95,7 @@ function CustomTooltip({ active, payload, label }: any) {
         <div key={key} style={{ display: 'flex', justifyContent: 'space-between', gap: 24, marginBottom: 3 }}>
           <span style={{ color, fontWeight: 500 }}>{lbl}</span>
           <span style={{ color: '#374151', fontWeight: 600 }}>
-            {fmtBRL((row as Record<string, number>)[key] ?? 0)}
+            {fmtBRL((row as unknown as Record<string, number>)[key] ?? 0)}
           </span>
         </div>
       ))}
