@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__871699fd-7199-4860-9f4d-ab4c067f3b81__list_projects",
+      "mcp__871699fd-7199-4860-9f4d-ab4c067f3b81__list_tables",
+      "mcp__871699fd-7199-4860-9f4d-ab4c067f3b81__execute_sql",
+      "PowerShell(Get-ChildItem -Recurse -File -Path \"C:\\\\Users\\\\Controller\\\\.gemini\\\\antigravity\\\\scratch\\\\clientunipds\\\\src\" | ForEach-Object { $_.FullName })",
+      "mcp__871699fd-7199-4860-9f4d-ab4c067f3b81__apply_migration",
+      "mcp__871699fd-7199-4860-9f4d-ab4c067f3b81__get_publishable_keys"
+    ]
+  }
+}
